@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0368D56296A3E8000D079D8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C0368D55296A3E8000D079D8 /* Alamofire */; };
+		C0368D59296A3FC300D079D8 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0368D58296A3FC300D079D8 /* APIRequest.swift */; };
+		C0368D5B296A402700D079D8 /* EndPointRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0368D5A296A402700D079D8 /* EndPointRequest.swift */; };
+		C0368D5F296A448700D079D8 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0368D5E296A448700D079D8 /* APIResponse.swift */; };
+		C0368D61296A47B400D079D8 /* FileConsultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0368D60296A47B400D079D8 /* FileConsultViewModel.swift */; };
+		C0368D67296A50E500D079D8 /* TabelaReferencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0368D66296A50E500D079D8 /* TabelaReferencia.swift */; };
+		C03C57DD296795E400CD4AFF /* iFipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C57DC296795E400CD4AFF /* iFipeApp.swift */; };
+		C03C57E1296795EC00CD4AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03C57E0296795EC00CD4AFF /* Assets.xcassets */; };
+		C03C57E5296795EC00CD4AFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03C57E4296795EC00CD4AFF /* Preview Assets.xcassets */; };
+		C03C57EF29679A1700CD4AFF /* FipeConsultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C57EE29679A1700CD4AFF /* FipeConsultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0368D58296A3FC300D079D8 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		C0368D5A296A402700D079D8 /* EndPointRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointRequest.swift; sourceTree = "<group>"; };
+		C0368D5E296A448700D079D8 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		C0368D60296A47B400D079D8 /* FileConsultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileConsultViewModel.swift; sourceTree = "<group>"; };
+		C0368D66296A50E500D079D8 /* TabelaReferencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelaReferencia.swift; sourceTree = "<group>"; };
+		C03C57D9296795E300CD4AFF /* iFipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03C57DC296795E400CD4AFF /* iFipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFipeApp.swift; sourceTree = "<group>"; };
+		C03C57E0296795EC00CD4AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C03C57E2296795EC00CD4AFF /* iFipe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iFipe.entitlements; sourceTree = "<group>"; };
+		C03C57E4296795EC00CD4AFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C03C57EE29679A1700CD4AFF /* FipeConsultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeConsultView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03C57D6296795E300CD4AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0368D56296A3E8000D079D8 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0368D57296A3FAB00D079D8 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				C0368D58296A3FC300D079D8 /* APIRequest.swift */,
+				C0368D5A296A402700D079D8 /* EndPointRequest.swift */,
+				C0368D5E296A448700D079D8 /* APIResponse.swift */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		C0368D65296A50CE00D079D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0368D66296A50E500D079D8 /* TabelaReferencia.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C03C57D0296795E300CD4AFF = {
+			isa = PBXGroup;
+			children = (
+				C03C57DB296795E400CD4AFF /* iFipe */,
+				C03C57DA296795E300CD4AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C03C57DA296795E300CD4AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03C57D9296795E300CD4AFF /* iFipe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03C57DB296795E400CD4AFF /* iFipe */ = {
+			isa = PBXGroup;
+			children = (
+				C0368D65296A50CE00D079D8 /* Model */,
+				C0368D57296A3FAB00D079D8 /* Infra */,
+				C03C57ED296799F900CD4AFF /* Home */,
+				C03C57DC296795E400CD4AFF /* iFipeApp.swift */,
+				C03C57E0296795EC00CD4AFF /* Assets.xcassets */,
+				C03C57E2296795EC00CD4AFF /* iFipe.entitlements */,
+				C03C57E3296795EC00CD4AFF /* Preview Content */,
+			);
+			path = iFipe;
+			sourceTree = "<group>";
+		};
+		C03C57E3296795EC00CD4AFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C03C57E4296795EC00CD4AFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C03C57ED296799F900CD4AFF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C03C57EE29679A1700CD4AFF /* FipeConsultView.swift */,
+				C0368D60296A47B400D079D8 /* FileConsultViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03C57D8296795E300CD4AFF /* iFipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03C57E8296795EC00CD4AFF /* Build configuration list for PBXNativeTarget "iFipe" */;
+			buildPhases = (
+				C03C57D5296795E300CD4AFF /* Sources */,
+				C03C57D6296795E300CD4AFF /* Frameworks */,
+				C03C57D7296795E300CD4AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFipe;
+			packageProductDependencies = (
+				C0368D55296A3E8000D079D8 /* Alamofire */,
+			);
+			productName = iFipe;
+			productReference = C03C57D9296795E300CD4AFF /* iFipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03C57D1296795E300CD4AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C03C57D8296795E300CD4AFF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = C03C57D4296795E300CD4AFF /* Build configuration list for PBXProject "iFipe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C03C57D0296795E300CD4AFF;
+			packageReferences = (
+				C0368D54296A3E7F00D079D8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = C03C57DA296795E300CD4AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03C57D8296795E300CD4AFF /* iFipe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03C57D7296795E300CD4AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03C57E5296795EC00CD4AFF /* Preview Assets.xcassets in Resources */,
+				C03C57E1296795EC00CD4AFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03C57D5296795E300CD4AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0368D67296A50E500D079D8 /* TabelaReferencia.swift in Sources */,
+				C03C57EF29679A1700CD4AFF /* FipeConsultView.swift in Sources */,
+				C03C57DD296795E400CD4AFF /* iFipeApp.swift in Sources */,
+				C0368D5B296A402700D079D8 /* EndPointRequest.swift in Sources */,
+				C0368D5F296A448700D079D8 /* APIResponse.swift in Sources */,
+				C0368D59296A3FC300D079D8 /* APIRequest.swift in Sources */,
+				C0368D61296A47B400D079D8 /* FileConsultViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C03C57E6296795EC00CD4AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C03C57E7296795EC00CD4AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C03C57E9296795EC00CD4AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iFipe/iFipe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFipe/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AV6XLHW8K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelapps.iFipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C03C57EA296795EC00CD4AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iFipe/iFipe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFipe/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AV6XLHW8K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelapps.iFipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03C57D4296795E300CD4AFF /* Build configuration list for PBXProject "iFipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03C57E6296795EC00CD4AFF /* Debug */,
+				C03C57E7296795EC00CD4AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03C57E8296795EC00CD4AFF /* Build configuration list for PBXNativeTarget "iFipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03C57E9296795EC00CD4AFF /* Debug */,
+				C03C57EA296795EC00CD4AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0368D54296A3E7F00D079D8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0368D55296A3E8000D079D8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0368D54296A3E7F00D079D8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C03C57D1296795E300CD4AFF /* Project object */;
+}
